@@ -1,3 +1,21 @@
+## SPU specific files -------
+
+#Targets directry
+_targets
+
+#All pipeline output
+*/in/*
+*/out/*
+*/ARCHIVE_out_spill_curve_method/*
+!*/*/.empty
+vault/*
+!vault/.empty
+delivery/*
+man/*
+*.html
+
+## Select files from R template -------------
+
 # History files
 .Rhistory
 .Rapp.history
@@ -47,3 +65,4 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+.positai
